@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App API</title>
+    <link rel="stylesheet" href="weatherApp.css">
+</head>
+<body>
+    <!-- Heading -->
+    <h2 id="heading">Simple Weather App.</h2>
+
+    <form action="#weather" id="weatherForm">
+        <input type="text" placeholder="Enter a city">
+        <button>Search</button>
+    </form>
+
+    <section>
+
+        <!-- error messsage -->
+         <div id="errorMessage"></div>
+
+        <!-- city's info -->
+         <h2 id="cityName"></h2>
+         <h4 id="countryName"></h4>
+         <h5 id="localTime"></h5>
+
+         <!-- City's weather Condition -->
+          <h1 id="degreeCelcius"></h1>
+
+          <!-- Text and Image-->
+           <div id="text"></div>
+           <div id="img"></div>
+
+           <!-- weather code. -->
+            <div id="code"></div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="weatherAPPAPI.js"></script>
+</body>
+</html>
