@@ -8,12 +8,16 @@ A web application that fetches real-time weather data based on user-inputted cit
 - Handles invalid city names with an error message
 - Clean and responsive UI
 
-## 🖥️ Live Demo
-[Add your live link here if hosted]
+
 
 ## 📸 Screenshot
-![Weather App](https://your-image-link.com/image.png)
+<img src="images/weather-edmonton.PNG"/>
+<img src="images/weather-lagos.PNG"/>
+ 
+ ## Error Handling 
+ <img src="images/weather-error.PNG"/>
 
+ 
 ## 🔧 Technologies Used
 - HTML
 - CSS
@@ -23,7 +27,7 @@ A web application that fetches real-time weather data based on user-inputted cit
 ## 📂 Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/repository-name.git
+   git clone https://github.com/DevOlabode/weather-App.git
    ```  
 2. Open `weatherAppAPI.html` in a browser.
 
