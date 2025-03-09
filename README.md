@@ -17,6 +17,8 @@ A web application that fetches real-time weather data based on user-inputted cit
  ## Error Handling 
  <img src="images/weather-error.PNG"/>
 
+ ## Live Demo.
+ [Project Codepen Link](https://codepen.io/DevOlabode/full/VYZoVLx)
  
 ## 🔧 Technologies Used
 - HTML
